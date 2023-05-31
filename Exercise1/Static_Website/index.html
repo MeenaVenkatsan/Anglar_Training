@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <script src="index.js"></script>
+        <link href="index.css" rel="stylesheet">
+        <link href="second.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="title">Meena Corp</div>
+            <div id="menu">
+                <ul>
+                    <li> Home</li>
+                    <li> Projects</li>
+                    <li> Clients </li>
+                    <li> Products</li>
+                    <li> Reach us</li>
+                </ul>
+            </div>
+            <div id="social-media">
+                <img src="images/facebook.png">
+                <img src="images/instagram6.png" id ="insta">
+                <img src="images/twitter4.png">
+            </div>
+        </div>
+        <div id="slide-area">
+            <div id="slide-show">
+                <img src="first.jpg" id="img1">
+                <img class="icon" id="left-icon" src="left_arrow1.png" onClick="changeImage('left')">
+                <img class="icon"  id="right-icon" src="right_arrow.jpg" onClick="changeImage('right')">
+            </div>
+        </div>
+        <div id="hide-show">
+            <img class="icon1" id="up" src="images/up_arrow.png" onClick="hideSlide()">
+            <img class="icon1" id="down" src="images/down_arrow.png" onClick="showSlide()" style="display:none">
+        </div>
+        <div id="services-wrapper">
+            <!-- <div class="service-box">
+
+            </div> -->
+        </div>
+        <div id="footer">
+            &copy; copyrights Meena Corp
+        </div>
+    </body>
+    <script src="data.js"></script>
+</html>
