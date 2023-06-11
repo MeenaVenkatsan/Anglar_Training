@@ -1,0 +1,10 @@
+<div id="header">
+    <div id="navigator">
+    <ul>
+        <li id="nav" *ngFor="let x of navigation"><span>{{x}}</span></li>
+    </ul>
+</div>
+<div id="social-media" >
+    <img id="social-media_image" *ngFor="let x of social_media_icons" src="{{x.path}}" alt="{{x.alt}}">
+</div>
+</div>
