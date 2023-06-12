@@ -19,7 +19,7 @@
     color:white;
     background-color:#D4AC0D ;
 }
-h3{
+h2{
 border-bottom: 2px solid blue;
 text-align: center;
 padding-left: 20px;
@@ -28,7 +28,7 @@ margin-left: 30px;
 margin-right: 30px;
 /* text-shadow: 2px 2px 2px grey; */
 }
-h3:hover{
+h2:hover{
     border-bottom: 2px solid rgb(74, 6, 6);
 }
 p{

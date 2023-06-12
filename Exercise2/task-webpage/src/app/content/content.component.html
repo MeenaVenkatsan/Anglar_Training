@@ -1,13 +1,15 @@
 <div id="content-area">
         <div class="left" id="sub-content">
-            <h3>{{detail1.title}}</h3>
-            <span>{{detail1.value}}</span>
-            <h4>{{detail2.title}}</h4>
-            <span>{{detail2.value}}</span>
+            <h1>{{detail1.title}}</h1>
+            <p>{{detail1.value}}</p>
+            <div id="sub-header">
+            <h3>{{detail2.title}}</h3>
+            <p>{{detail2.value}}</p>
+        </div>
         </div>
         <div class="right" id="navbar">
-            <h3>Navigator</h3>
-            <ul>
+            <h2>Navigator</h2>
+            <ul >
                 <li *ngFor="let x of navigation">{{x}}</li>
             </ul>
         </div>
