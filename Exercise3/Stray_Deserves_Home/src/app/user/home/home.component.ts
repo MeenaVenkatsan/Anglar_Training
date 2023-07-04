@@ -8,10 +8,12 @@ import { LoginService } from 'src/app/service/login.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  username:any=""
   constructor(private log:LoginService,private router:Router,private route:ActivatedRoute){
 
   }
   ngOnInit(): void {
+    this.username=sessionStorage.getItem("username")
   }
   navigate(url:string){
     

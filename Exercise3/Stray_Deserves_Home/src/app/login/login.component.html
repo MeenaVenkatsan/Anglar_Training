@@ -23,7 +23,7 @@
       <p>
         <mat-form-field appearance="outline">
           <mat-label>Password</mat-label>
-          <input matInput placeholder="" name="password" [(ngModel)]="password">
+          <input matInput placeholder="" type="password" name="password" [(ngModel)]="password">
           <mat-icon matSuffix>pets</mat-icon>
           <mat-hint>Password</mat-hint>
         </mat-form-field>
@@ -31,7 +31,7 @@
     </td>
     </tr>
     </table>
-    <div class="errors">{{error}}</div>
+    <div class="errors" id="errors">{{error}}</div>
 <!-- <div class="example-button-row"> -->
   <button mat-fab extended id="login_button" (click)="login()">
     <mat-icon>favorite</mat-icon>
@@ -97,7 +97,7 @@
       </td>
 </tr>
 <tr>
-  <td colspan="2"><div class="errors">{{error}}</div></td>
+  <td colspan="2"><div class="errors" id="errors">{{error}}</div></td>
 </tr>
 <!-- <div class="example-button-row"> -->
   <tr>
