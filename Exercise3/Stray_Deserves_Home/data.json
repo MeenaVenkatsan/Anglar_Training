@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "email": "meena1@gmail.com",
+      "password": "$2a$10$XQOnHA1YlW3fPngwDJj4P.ORMm55nL8t.ccuWAJlvFjL2awiBwphm",
+      "role": "meena1",
+      "username": "meena1",
+      "phone": 8768173,
+      "id": 3
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$gW6mAmGWi4f/VaXrR8/UNOKJgDGpU9y9raIFFXRHn32vSUXhMqQ0a",
+      "id": 1,
+      "role": "admin",
+      "username": "admin"
+    },
+    {
+      "email": "rescue@gmail.com",
+      "password": "$2a$10$xjztF/6yiLjGAdWWCCxDEuuX8iagCe89cgFK2EgXBOghwS7z.4JCC",
+      "role": "user",
+      "username": "Rescue test",
+      "id": 4
+    },
+    {
+      "email": "user@gmail.com",
+      "password": "$2a$10$fPg.KIlGHXnlHLcJKvk5ueyNL7rubooEeKRo5Jiww7wfq43NNBEy6",
+      "role": "user",
+      "username": "user",
+      "id": 5
+    },
+    {
+      "email": "admin@admin.com",
+      "password": "$2a$10$a0LnhhkUXbIRXOHfP3mv2u0fTSYU5mOOSYFLT.yvhiUcJ.6spMLpG",
+      "role": "admin",
+      "username": "admin",
+      "id": 6
+    }
+  ],
+  "adoption": [
+    {
+      "id": 1,
+      "type": "dog",
+      "imagename": "dog1.jpg",
+      "image": "yes",
+      "rescued": "yes",
+      "status": "ready"
+    },
+    {
+      "id": 2,
+      "type": "cat",
+      "imagename": "adopt2.jpg",
+      "rescued": "yes",
+      "image": "yes",
+      "status": "ready"
+    },
+    {
+      "id": 3,
+      "type": "dog",
+      "imagename": "adopt3.jpg",
+      "image": "yes",
+      "rescued": "yes",
+      "status": "ready"
+    },
+    {
+      "id": 4,
+      "type": "dog",
+      "imagename": "adopt4.jpg",
+      "image": "yes",
+      "rescued": "yes",
+      "status": "ready"
+    },
+    {
+      "id": 5,
+      "type": "dog",
+      "imagename": "adopt5.jpg",
+      "image": "yes",
+      "rescued": "yes",
+      "status": "ready"
+    },
+    {
+      "id": 6,
+      "type": "cat",
+      "imagename": "adopt6.jpg",
+      "image": "yes",
+      "rescued": "yes",
+      "status": "ready"
+    },
+    {
+      "id": 7,
+      "type": "dog",
+      "imagename": "adopt7.jpg",
+      "image": "yes",
+      "rescued": "yes",
+      "status": "ready"
+    },
+    {
+      "id": 8,
+      "type": "cat",
+      "imagename": "adopt8.jpg",
+      "image": "yes",
+      "rescued": "yes",
+      "status": "ready"
+    },
+    {
+      "id": 9,
+      "type": "cat",
+      "imagename": "adopt9.jpg",
+      "image": "yes",
+      "rescued": "yes",
+      "status": "recovering"
+    }
+  ],
+  "posts": [
+    {
+      "id":1,
+      "userId": "user@gmail.com",
+      "username": "user",
+      "adoption_type": "self",
+      "image": "catAdopt.jpg",
+      "content": "Found her infront of my PG gate. Saw her meowing looking at every passerby for two days. Fed her when i could and never saw her mom nearby. When i felt like she wouldnt survive without help so I took her in. She must have been 2 months old and had infected eyes. Taken het to vet and named her kitty kitty. Now she has roof under her head when it rains, fed properly and loads of love."
+    },
+    {
+      "id":2,
+      "userId": "user@gmail.com",
+      "username": "user",
+      "adoption_type": "self",
+      "image": "vella.jpg",
+      "content": "We own a mother cat whose kitten was lost. Thats when we found her and took her in. At first mother cat didnt accept her later she did and became inseprable. She is a real surviver as grew up, she suffered from certain injury near spinalcord. Thought we will lose her but she fought all the odds and surviived. Now she unstoppable :)"
+    },
+    {
+      "id":5,
+      "userId": "user@gmail.com",
+      "username": "user",
+      "adoption_type": "self",
+      "image": "doggy.jpg",
+      "content": "We found him near my mother shop. Some vehicle must have ran over his one hand and it looked painfull. I fed but didnt have heart to seperate him from his mom as he was playing and jumping all around her. But as the days goes his inquiry got worse and people started to hit him as he surrounded by fleas. So me and my brother took him in and taken to vet. The poor little one lost his two fingers and his entire paw is mishaped and had wounded stomach. Still mesmerised knowing even through all these pain he managed to play and jump with his mother. Now he is all cured and growing like hulk in our home."
+    },
+    {
+      "id":3,
+      "userId": "meena1@gmail.com",
+      "username": "user",
+      "adoption_type": "self",
+      "image": "sneha.jpg",
+      "content": "Found these puppys in my neighbors house. After few months i saw the mother dog bite her one puppy because puppy trying to eat her food. Later I have noticed that was getting bullied by lot of dogs around and was really malnourished had left eye bitten and infected. Since then started to feed her whenever i can. Later days my brother joined and treated her eyes and other wounds. My mom named her sneha and fed her whenever she could especially when she is pregnant and after giving birth. Little effort from us gave her ability to survive among other dogs   "
+    },
+    {
+      "id":4,
+      "userId": "user@gmail.com",
+      "username": "user",
+      "adoption_type": "self",
+      "image": "littleBundle.jpg",
+      "content": "Found three little bundles near by our house. Must have lost their way. Nearby couldnt find any water source and was confused how it came here. We had to leave them all three nearby pond hoping it is the best choice. "
+    }
+  ],
+  "adoption_request": [
+    {
+      "email": "user@gmail.com",
+      "userName": "user",
+      "petImage": "adopt2.jpg",
+      "adoptedStatus": "Approved",
+      "adoptPetId": 2,
+      "id": 9
+    },
+    {
+      "email": "rescue@gmail.com",
+      "userName": "rescue",
+      "petImage": "adopt4.jpg",
+      "adoptedStatus": "Declined",
+      "adoptPetId": 4,
+      "id": 10
+    }
+  ]
+}

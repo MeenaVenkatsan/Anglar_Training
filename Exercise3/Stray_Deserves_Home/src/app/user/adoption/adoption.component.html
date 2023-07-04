@@ -1,0 +1,21 @@
+<div>
+    <h3>Adopt Here</h3>
+    <div id="gallery">
+        <div id="grid-one" *ngFor="let rowData of arrayAdoptions">
+            <div class="color-pal" *ngFor="let x of rowData">
+                <a><img class=""  src="http://localhost:8080/pet_app/adoption/{{x.imagename}}"></a>
+                  <div class="middle">
+                    <div class="text" (click)="adoptionRequest(x.id,x.imagename)">Click to adopt me</div>
+                  </div>
+                </div>
+        </div>
+        <!-- <div id="grid-one">
+          <div class="color-pal" *ngFor="let x of grid_two">
+              <a><img class=""  src="http://localhost:8080/pet_app/adoption/{{x.img}}"></a>
+                <div class="middle">
+                  <div class="text">Click to adopt me</div>
+                </div>
+              </div>
+      </div> -->
+    </div>
+ </div>

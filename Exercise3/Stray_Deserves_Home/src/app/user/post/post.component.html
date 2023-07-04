@@ -1,0 +1,12 @@
+<div class="post" >
+<div id="option" [style.color]="'whitesmoke'" [style.padding]="'10px'">
+    Adoption Type >>
+    <select [(ngModel)]="selected">
+        <option *ngFor="let x of types">{{x}}</option>
+    </select>
+</div>
+<app-post-box *ngFor="let x of post | postFilter:selected" [posts]="x"></app-post-box>
+</div>
+<div class="right">
+<app-post-form></app-post-form>
+</div>

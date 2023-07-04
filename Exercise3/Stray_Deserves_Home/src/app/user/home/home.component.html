@@ -1,0 +1,19 @@
+<!-- <app-login></app-login> -->
+<!-- <app-register></app-register> -->
+<mat-toolbar id="main-menu">
+  <span class="app-title">Welcome</span>
+  <div class="menu-items">
+  <ul>
+      <li><a (click)="navigate('')">Home</a></li>
+      <li><a (click)="navigate('adoption')">Adoption</a></li>
+      <li><a (click)="navigate('post')">Posts</a></li>
+      <li><a (click)="navigate('contactus')">Contact Us</a></li>
+  </ul>
+</div>
+<div id="social-media" >
+  <img id="social-media_image"  src="http://localhost:8080/pet_app/social_media/facebook.png" >
+  <img id="social-media_image"  src="http://localhost:8080/pet_app/social_media/instagram6.png" >
+  <img id="social-media_image"  src="http://localhost:8080/pet_app/social_media/twitter4.png" >
+</div>
+</mat-toolbar>
+<router-outlet></router-outlet>

@@ -1,0 +1,18 @@
+.post{
+    padding-top: 100px;
+    width: 60%;
+    float: left; 
+    margin-left:0px;
+}
+#option{
+    background-color: rgb(174, 16, 90);
+    color:white;
+    width:800px;
+    margin-left: 30px;;
+}
+.left{
+    width: 30%;
+    float: left; }
+.right{
+    width: 30%;
+    float: right; }

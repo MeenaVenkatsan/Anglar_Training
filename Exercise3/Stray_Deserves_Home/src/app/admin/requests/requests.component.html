@@ -1,0 +1,17 @@
+
+<div id="table-view">
+    <!-- <span id="request">Adoption Requests</span> -->
+<table border="1" id="customers">
+    <tr>
+        <th class="heading" *ngFor="let x of headimg">{{x}}</th>
+    </tr>
+    <tr *ngFor="let x of adoptRequests">
+        <td>{{x.email}}</td>
+        <td>{{x.userName}}</td>
+        <td>{{x.adoptedStatus}}</td>
+        <td><img src="http://localhost:8080/pet_app/adoption/{{x.petImage}}"></td>
+        <td><button class="success" (click)="Approval(x.email,x.userName,x.id,x.petImage,x.adoptPetId)">Approve</button>
+            <button class="danger" (click)="decline(x.email,x.userName,x.id,x.petImage,x.adoptPetId)">Decline</button></td>
+    </tr>
+</table>
+</div> 

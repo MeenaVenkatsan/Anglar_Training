@@ -1,0 +1,39 @@
+.rform{
+background-color: whitesmoke;
+margin-top:100px;
+border-radius: 5px;
+box-shadow: 3px 3px 3px grey;
+width:350px;
+}
+.large-input{
+    height:50px;
+}
+p{
+    margin-left: 40px;
+}
+input,textarea{
+    background-color: whitesmoke;
+}
+textarea{
+    width:200px;
+    overflow: scroll;
+}
+.option{
+    margin-left: 40px;   
+}
+h3{
+    background-color: #bf1747;
+    color:white;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(50, 47, 47);
+}
+button{
+    background-color: #bf1747;
+    box-shadow: 3px 3px 3px black;
+    color:white;
+    border-radius: 3px;;
+    margin-left:20px;
+    height:40px;
+    width:300px;
+}

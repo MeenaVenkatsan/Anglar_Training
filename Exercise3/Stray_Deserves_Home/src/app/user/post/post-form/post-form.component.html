@@ -1,0 +1,42 @@
+<div class="rform">
+    <h3>Post Your Rescue Mission</h3>
+<form>
+    <p> 
+        <mat-form-field appearance="outline">
+          <mat-label>Name</mat-label>
+          <input matInput placeholder="" name="userName" [(ngModel)]="userName">
+        </mat-form-field>
+      </p>
+      <!-- <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Name</mat-label>
+          <input matInput placeholder="" type="file" name="image" [(ngModel)]="image">
+        </mat-form-field>
+      </p> -->
+       <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Image</mat-label>
+          <input matInput placeholder="" type="text" name="image" [(ngModel)]="image">
+        </mat-form-field>
+      </p>   
+<mat-form-field class="option">
+  <mat-label>Adoption Type</mat-label>
+  <mat-select >
+    <mat-option *ngFor="let x of types">{{x}}</mat-option>
+  </mat-select>
+</mat-form-field> 
+    <p>
+<mat-form-field class="example-full-width">
+    <mat-label>Content</mat-label>
+    <textarea matInput></textarea>
+  </mat-form-field>
+</p>
+<button color="primary" type="button" (click)="post()">Post Review</button> 
+</form>
+    <div *ngIf="errors.length!=0">
+        <ul>
+            <li *ngFor="let x of errors">{{x}}</li>
+
+        </ul>
+    </div> 
+</div>
